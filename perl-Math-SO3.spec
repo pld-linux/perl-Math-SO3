@@ -7,7 +7,7 @@
 %define	pnam	SO3
 Summary:	Math::SO3 - implementation of SO(3) rotation group
 Summary(pl):	Math::SO3 - implementacja grupy obrotów SO(3)
-Name:		perl-Math-Libm
+Name:		perl-Math-SO3
 Version:	0.90
 Release:	1
 License:	LGPL
