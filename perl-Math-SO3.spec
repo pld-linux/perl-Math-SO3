@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	SO3
 Summary:	Math::SO3 - implementation of SO(3) rotation group
-Summary(pl):	Math::SO3 - implementacja grupy obrotów SO(3)
+Summary(pl.UTF-8):   Math::SO3 - implementacja grupy obrotÃ³w SO(3)
 Name:		perl-Math-SO3
 Version:	0.90
 Release:	1
@@ -22,9 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package provides a simple (direct), fast (in C) implementation of
 three-dimensional rotations, more widely known as "the SO(3) group".
 
-%description -l pl
-Ten pakiet dostarcza prost± (bezpo¶redni±), szybk± (w C) implementacjê
-trójwymiarowych obrotów, szerzej znan± jako "grupa SO(3)".
+%description -l pl.UTF-8
+Ten pakiet dostarcza prostÄ… (bezpoÅ›redniÄ…), szybkÄ… (w C) implementacjÄ™
+trÃ³jwymiarowych obrotÃ³w, szerzej znanÄ… jako "grupa SO(3)".
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
