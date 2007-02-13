@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	SO3
 Summary:	Math::SO3 - implementation of SO(3) rotation group
-Summary(pl.UTF-8):   Math::SO3 - implementacja grupy obrotów SO(3)
+Summary(pl.UTF-8):	Math::SO3 - implementacja grupy obrotów SO(3)
 Name:		perl-Math-SO3
 Version:	0.90
 Release:	1
