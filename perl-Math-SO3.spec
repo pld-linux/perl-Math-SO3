@@ -36,6 +36,7 @@ perl -pi -e 's/euler_angles_zxz/euler_angles_yxz/' test.pl
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
