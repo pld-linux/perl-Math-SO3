@@ -12,8 +12,9 @@ Version:	0.90
 Release:	2
 License:	LGPL
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0ca499258a36775d3e2f3d9ae0db0c5c
+URL:		http://search.cpan.org/dist/Math-SO3/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -30,7 +31,7 @@ trójwymiarowych obrotów, szerzej znaną jako "grupa SO(3)".
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 # uhm...? original version failed, this doesn't
-perl -pi -e 's/euler_angles_zxz/euler_angles_yxz/' test.pl
+%{__perl} -pi -e 's/euler_angles_zxz/euler_angles_yxz/' test.pl
 
 %build
 %{__perl} Makefile.PL \
