@@ -9,7 +9,7 @@ Summary:	Math::SO3 - implementation of SO(3) rotation group
 Summary(pl.UTF-8):	Math::SO3 - implementacja grupy obrotów SO(3)
 Name:		perl-Math-SO3
 Version:	0.90
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
