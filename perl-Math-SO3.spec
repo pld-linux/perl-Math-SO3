@@ -57,6 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Math/SO3.pm
 %dir %{perl_vendorarch}/auto/Math/SO3
 %{perl_vendorarch}/auto/Math/SO3/autosplit.ix
-%{perl_vendorarch}/auto/Math/SO3/SO3.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Math/SO3/SO3.so
 %{_mandir}/man3/*
