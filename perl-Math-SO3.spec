@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Math
 %define		pnam	SO3
 Summary:	Math::SO3 - implementation of SO(3) rotation group
